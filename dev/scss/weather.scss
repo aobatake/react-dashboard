@@ -1,0 +1,48 @@
+@import './base/variables';
+@import './base/functions';
+@import './modules/grid';
+
+
+.weatherbox {
+  background-color: #DCEDC8;
+  border: 5px solid black;
+  margin: 2rem;
+}
+
+.weather-title {
+  text-align: center;
+}
+
+.weather-date {
+  text-align: center;
+  margin-bottom: 1.5rem; 
+}
+
+.weather-main-icon {
+  color: $light-blue;
+  font-size: 9rem;
+  margin-right: 4rem;
+}
+
+.weather-main-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.wind-icon {
+  color: #AB47BC;
+}
+
+.temp-icon {
+  color: #F44336;
+}
+
+.humidity-icon {
+  color: #00BCD4;
+}
+
+.pressure-icon {
+  color: #FFC107; 
+}

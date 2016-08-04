@@ -1,0 +1,34 @@
+@import './base/variables';
+@import './modules/grid';
+
+nav {
+  background:$light-blue;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	font-size:3rem;
+	display: inline-block;
+	margin: 1rem 4rem ;
+  transition:transform 2s ease-in-out;
+}
+
+a {
+	text-decoration:none;
+	color: $font-color;
+  padding: 0 1rem;
+  display: inline-block;
+  cursor: default;
+  border: 2px solid $font-color;
+  border-right: 2px solid $font-color;
+  
+  &:hover {
+    transform: scale(1.05);
+    background: #A5D6A7;
+  }
+}
